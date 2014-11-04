@@ -4,16 +4,16 @@ var Menu = (function(){
     l : {},
     preload: function(){
       game.stage.backgroundColor = '#727272';
-      game.load.image('sky',         '/assets/gameBackground.png');
-      game.load.image('background',  '/assets/menu.png');
-      game.load.image('logo',        '/assets/gremlins-logo.png');
-      game.load.image('startButton', '/assets/startButton.png');
-      game.load.image('mogwai',      '/assets/mogwai.png');
-      game.load.image('gremlin',     '/assets/gremlin.png');
-      game.load.spritesheet('rain',  '/assets/rain.png', 17, 17);
+      game.load.image('sky',         'assets/gameBackground.png');
+      game.load.image('background',  'assets/menu.png');
+      game.load.image('logo',        'assets/gremlins-logo.png');
+      game.load.image('startButton', 'assets/startButton.png');
+      game.load.image('mogwai',      'assets/mogwai.png');
+      game.load.image('gremlin',     'assets/gremlin.png');
+      game.load.spritesheet('rain',  'assets/rain.png', 17, 17);
 
       // Load the theme music
-      game.load.audio('theme', '/assets/audio/theme-music.ogg');
+      game.load.audio('theme', 'assets/audio/theme-music.ogg');
     },
 
     create: function(){
